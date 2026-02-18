@@ -1,0 +1,36 @@
+{
+  "name": "media-optimizer",
+  "version": "3.0.1",
+  "description": "Analyseur et optimiseur de fichiers vidéo intelligent - HTML5 Video API • Batch automatique • Métadonnées réelles • 100% côté client",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "deploy": "netlify deploy --prod"
+  },
+  "keywords": [
+    "video",
+    "optimization",
+    "ffmpeg",
+    "media",
+    "encoding",
+    "compression",
+    "plex",
+    "h265",
+    "hevc",
+    "codec",
+    "analyzer"
+  ],
+  "author": "Ivane Bagashvili",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ivane-Ba/media-optimizer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ivane-Ba/media-optimizer/issues"
+  },
+  "homepage": "https://ivane-ba.github.io/media-optimizer",
+  "devDependencies": {},
+  "dependencies": {}
+}
